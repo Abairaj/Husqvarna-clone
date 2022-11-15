@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding: 20px;
+}
+header video{
+    padding: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+.navbar h1{
+    color: #fff;
+    text-align: left;
+    font-size: 1.25em;
+    margin-left: 25px;
+}
+
+
+
+.navbar .icons a{
+    color: #fff;
+    font-size: 1.25rem;
+    margin-right: 35px;
+}
+
+.icons i{
+    padding: 10px;
+    cursor: pointer;
+}
+
+header{
+    height: 50vh;
+}
+
+.sec-1{
+    margin-top: 500px;
+    height: 30vh;
+}
+
+.sec-1 img{
+    margin-left: 150px;
+    height: 500px;
+    width: 1300px;
+}
+
+.btn-1{
+    background-color: #ffed00;
+    cursor: pointer;
+    color: #002550;
+    border-color: #ffed00;
+    padding: 20px 40px;
+    font-size: 18px;
+    position: absolute;
+
+}
+
+.button-1 {
+    position: absolute;
+     margin-left: 250px;
+    margin-top: 200px;
+}
+
+.btn-1:hover{
+    background-color: #fff;
+    color: #ffed00;
+}
+
+.content-0{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 20px;
+    color: #002550;
+    width: 900px;
+    display: flex;
+    z-index: 1;
+}
+
+.content-0 i{
+    color: #002550;
+}
+
+
+.content-0 i{
+   padding: 20px;
+   font-size: 150px;
+   margin-top: -15px;
+   margin-left: 110px;
+}
+
+
+.sec-2 .video-2{
+    padding: 20px;
+    opacity: .4;
+}
+
+.video-2:hover{
+    opacity: 1;
+   
+}
+
+.sec-2 img{
+    margin-left: 45px;
+    margin-top: 340px;
+    
+}
+
+.sec-3 img{
+    padding: 20px;
+}
+
+.sec-3{
+
+    display: flex;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.content h1{
+    font-size: 36px;
+    font-weight: 500px;
+    padding: 10px;
+}
+
+.content p{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.sec-4{
+    padding: 40px;
+}
+.sec-4 img{
+   opacity: .4;
+    
+}
+
+.content-1{
+    position: absolute;
+    color: #002550;
+    z-index: 1;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.content-1 h1{
+    font-size: 36px;
+    font-weight: 500px;
+    padding: 10px;
+}
+
+.content-1 p{
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+.sec-4 img:hover{
+    opacity: 1;
+  
+}
+
+.sec-5{
+    display: flex;
+    padding: 40px;
+}
+
+.sec-5 img{
+    padding: 15px;
+}
+
+.content-3{
+
+    color: #002550;
+}
+
+.content-3 p{
+    padding: 10px;
+}
+
+.content-3 h1{
+    padding: 10px;
+}
+
+.sec-6{
+    display: flex;
+    padding: 40px;
+}
+
+.sec-6 img{
+    padding: 10px;
+    height: 430px;
+    width: 400px;
+    padding-right: 0;
+}
+
+.p-6-2{
+    background-color: #002550;
+    color: #fff;
+    height: 845px;
+    padding: 20px;
+    width: 610px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content-4{
+    margin-top: 50%;
+}
+
+.content-4 h1{
+    padding: 10px;
+    font-weight: 500px;
+    font-size: 36px;
+}
+
+.content-4 p{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.button-4{
+    padding: 10px;
+}
+
+.btn-2{
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 1.05em 2.778em;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-2:hover{
+    border:1px solid #ffed00;
+    color: #ffed00;
+}
+
+.sec-7{
+    text-align: center;
+    display: flex;
+    color: #002550;
+    padding: 40px;
+}
+
+.sec-7 h1{
+    font-size: 1.375em;
+    padding: 20px;
+}
+
+.btn-3{
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #002550;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-3:hover{
+    border-color: #002550;
+    background-color: #fff;
+    color: #002550;
+    padding-left: 60px;
+
+}
+
+.sec-8 img{
+    padding: 40px;
+    width: 1500px;
+    opacity: .4;
+}
+
+.sec-8 img:hover{
+    opacity: 1;
+   
+}
+
+.content-l{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-size: 26px;
+    margin-top: 350px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.content-l i{
+    padding-left: 50px;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+
+.footer{
+    margin-top: 80px;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+.footer h1{
+    font-size: 17px;
+    font-weight: 700;
+    color: #002550;
+    padding: 10px;
+}
+
+.footer p{
+    font-size: 16px;
+    padding: 10px;
+    color: #002550;
+}
+
+.copy{
+    color: #002550;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.copy p{
+    padding: 10px;
+}
+
+.icon-f{
+    font-size: 25px;
+}
+
+#fb{
+    color: #4267B2;
+}
+
+#insta{
+    color: #bc2a8d;
+}
+
+#yt{
+    color: #FF0000;
+}
+
+#twt{
+    color: #1DA1F2;
+}
