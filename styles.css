@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .navbar{
@@ -10,11 +10,14 @@
     padding-top: 40px;
     justify-content: space-between;
     padding: 20px;
+    padding-left: 0;
 }
 header video{
     padding: 0;
     position: absolute;
     z-index: -1; 
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
 
 .navbar h1{
@@ -42,7 +45,7 @@ header{
 }
 
 .sec-1{
-    margin-top: 500px;
+    margin-top: 680px;
     height: 30vh;
 }
 
@@ -215,12 +218,13 @@ header{
 .p-6-2{
     background-color: #002550;
     color: #fff;
-    height: 845px;
-    padding: 20px;
-    width: 610px;
+    height: 865px;
+    padding: 10px;
+    width: 510px;
     margin-top: 10px;
     text-align: center;
 }
+
 
 .content-4{
     margin-top: 50%;
