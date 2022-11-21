@@ -1,76 +1,50 @@
+
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    /* overflow-x: hidden; */
-}
-.navbar{
+
+nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding:0 20px 20px 0;
-    line-height: 0px;
+    padding-top: 2rem;
+}
+
+.icon-1{
+    display: flex;
+    color: white;
+    padding: 1rem;
+}
+
+.icon-1 i{
+    padding: .5rem;
+    cursor: pointer;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/appic-HZ0IQ-icf_k-unsplash.jpg);
+    background-size: cover;
+   
     
 }
 
-header{
-    position: relative;
-}
-
-
-header video{
-    width: 100%;
-    padding: 0;
-    position: absolute;
-    z-index: -1; 
-    margin-top: 0px;
-    margin-bottom: 100px;
-}
-
-.vid img{
-    width: 100%;
-    position: absolute;
-    z-index: -2;
-}
-.navbar h1{
-    color: #fff;
-    text-align: left;
-    font-size: 1.25em;
-    margin-left: 25px;
-}
-
-
-
-.navbar .icons a{
-    color: #fff;
-    font-size: 1.25rem;
-    margin-right: 35px;
-}
-
-.icons i{
-    padding: 10px;
-    cursor: pointer;
-    padding-top:  1200px; 
-}
-
-header{
-    height: 250vh;
-}
-
-.sec-1{
-    height: 30vh;
-    position: relative;
-
+header h1{
+    color: white;
+    padding: 1rem;
 }
 
 .sec-1 img{
-    margin-left: 150px;
-    height: 500px;
-    width: 1300px;
-   
+    height: 60vh;
+    width: 70vw;
+}
+
+.sec-1{
+    margin-left: 15rem;
+    margin-top: 5rem;
 }
 
 .btn-1{
@@ -86,8 +60,8 @@ header{
 
 .button-1 {
     position: absolute;
-     margin-left: 250px;
-    margin-top: 200px;
+     margin-left: 5rem;
+    margin-top: 13rem;
 }
 
 .btn-1:hover{
@@ -95,10 +69,11 @@ header{
     color: #ffed00;
 }
 
+
 .content-0{
     position: absolute;
-    margin-top: 650px;
-    margin-left: 200px;
+    margin-top: 35rem;
+    margin-left: 20rem;
     font-size: 30px;
     font-weight: 400;
     padding-right: 20px;
@@ -108,21 +83,22 @@ header{
     z-index: 1;
 }
 
-.content-0 i{
+.content-0 a i{
     color: #002550;
+    font-size: 110px;
+    margin-right: 5rem;
 }
 
 
 .content-0 i{
-   padding: 20px;
-   font-size: 150px;
-   margin-top: -15px;
-   margin-left: 110px;
+   padding: 2rem;
+   font-size: 1.5rem;
+   margin-top: -1.5rem;
+   margin-left: 5rem;
 }
-
 
 .sec-2 .video-2{
-    padding: 0px;
+    padding: 20px;
     opacity: .4;
 }
 
@@ -132,8 +108,8 @@ header{
 }
 
 .sec-2 img{
-    margin-left: 45px;
-    margin-top: 380px;
+    margin-left: 2.5rem;
+    margin-top: 9rem;
     
 }
 
@@ -146,7 +122,6 @@ header{
     display: flex;
     padding: 15px;
     margin-top: 0;
-    position: relative;
 }
 
 .content{
@@ -225,21 +200,22 @@ header{
 .sec-6{
     display: flex;
     padding: 40px;
+    margin-left: 2rem;
 }
 
 .sec-6 img{
     padding: 10px;
     height: 430px;
-    width: 400px;
+    width: 410px;
     padding-right: 0;
 }
 
 .p-6-2{
     background-color: #002550;
     color: #fff;
-    height: 865px;
+    height: 849px;
     padding: 10px;
-    width: 510px;
+    width: 520px;
     margin-top: 10px;
     text-align: center;
 }
@@ -310,6 +286,7 @@ header{
     padding: 40px;
     width: 1500px;
     opacity: .4;
+    margin-left: 1rem;
 }
 
 .sec-8 img:hover{
